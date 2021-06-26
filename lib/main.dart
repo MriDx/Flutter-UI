@@ -1,6 +1,7 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
+import 'package:ui/artfiber/onboardding.dart';
 import 'package:ui/beer1/home.dart';
 import 'package:ui/color.dart';
 import 'package:ui/doctor_consultant_ui/doctor_consultant_ui.dart';
@@ -22,7 +23,7 @@ class MyApp1 extends StatelessWidget {
     return MaterialApp(
       themeMode: ThemeMode.light,
       debugShowCheckedModeBanner: false,
-      home: TravelUI_003(),
+      home: OnBoarding(),
     );
   }
 }
