@@ -7,6 +7,7 @@ import 'package:ui/doctor_consultant_ui/doctor_consultant_ui.dart';
 import 'package:ui/job_finder_ui/job_finder_ui_01.dart';
 import 'package:ui/login_ui/login_1.dart';
 import 'package:ui/other/chart_test.dart';
+import 'package:ui/travel_ui/travel_ui.dart';
 import 'package:ui/twitter/homepage.dart';
 
 import 'PetAdoptionUI/PetAdoptionUI.dart';
@@ -21,7 +22,7 @@ class MyApp1 extends StatelessWidget {
     return MaterialApp(
       themeMode: ThemeMode.light,
       debugShowCheckedModeBanner: false,
-      home: JobFinderUI01(),
+      home: TravelUI_003(),
     );
   }
 }
